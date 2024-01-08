@@ -375,3 +375,9 @@ footer {
     display: flex;
     justify-content: space-between;
 }
+
+.styling:hover {
+    cursor: pointer;
+    box-shadow: 15px 15px 60px;
+    border-radius: 16px;
+}
