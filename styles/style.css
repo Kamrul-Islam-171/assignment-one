@@ -307,12 +307,13 @@ footer {
 
 .personal-info .address p {
 
-    padding-right: 200px;
+    padding-right: 150px;
     color: #FFF;
     font-family: Inter;
     font-size: 20px;
     font-weight: 500;
-    line-height: 40px;
+    line-height: 40px
+   
     /* 166.667% */
 }
 
@@ -323,15 +324,20 @@ footer {
 .phone,
 .address {
     margin-top: 120px;
+    
 }
 
+.phone {
+    margin-right: 50px;
+}
 .phone-no,
 .website {
     color: #FFF;
     font-family: Inter;
     font-size: 20px;
     font-weight: 500;
-    line-height: 40px;
+    line-height: 40px
+    
 }
 
 .social-icons {
