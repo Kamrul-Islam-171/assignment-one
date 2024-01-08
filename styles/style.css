@@ -301,13 +301,13 @@ footer {
 
 .personal-info {
     display: flex;
-    gap: 600px;
+    gap: 200px;
 
 }
 
 .personal-info .address p {
 
-    padding-right: 150px;
+    padding-right: 400px;
     color: #FFF;
     font-family: Inter;
     font-size: 20px;
@@ -327,18 +327,8 @@ footer {
     
 }
 
-.phone {
-    margin-right: 50px;
-}
-.phone-no,
-.website {
-    color: #FFF;
-    font-family: Inter;
-    font-size: 20px;
-    font-weight: 500;
-    line-height: 40px
-    
-}
+
+
 
 .social-icons {
     display: flex;
@@ -381,3 +371,51 @@ footer {
     box-shadow: 15px 15px 60px;
     border-radius: 16px;
 }
+
+.phone-call {
+    display: flex;
+    gap: 5px;
+}
+
+ .phone-web-text {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 40px
+ }
+
+ .phone {
+    margin-right: 100px;
+ }
+
+
+
+ /* for circle */
+
+.circle {
+    margin-top: 300px;
+    margin-bottom: 300px;
+}
+
+.circle-img {
+    /* background-color: aqua; */
+    width: 500px;
+    height: 500px;
+    /* text-align: center; */
+    display: flex;
+    justify-content: center;
+
+    border: 10px solid red;
+    border-radius: 450px;
+
+    margin-left: 50px;
+    
+}
+
+#circle-image {
+    width: 80%;
+    margin: auto;
+    display: block;
+}
+
