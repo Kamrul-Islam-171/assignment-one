@@ -258,11 +258,9 @@
     text-align: center;
     font-family: Inter;
     font-size: 17px;
-    
+
     font-weight: 400;
     padding: 0 300px
-    
-    
 }
 
 .subscribe form {
@@ -279,6 +277,7 @@
     font-size: 18px;
     border-radius: 50px 0 0 50px;
 }
+
 #subscribe {
     padding: 25px;
     border: none;
@@ -291,4 +290,82 @@
 #subscribe:hover {
     background-color: green;
     cursor: pointer;
+}
+
+footer {
+    background: #070211;
+    height: 606px;
+
+
+}
+
+.personal-info {
+    display: flex;
+    gap: 600px;
+
+}
+
+.personal-info .address p {
+
+    padding-right: 200px;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 40px;
+    /* 166.667% */
+}
+
+.personal-info .phone p {
+    color: white;
+}
+
+.phone,
+.address {
+    margin-top: 120px;
+}
+
+.phone-no,
+.website {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 40px;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    margin-top: 48px;
+    margin-bottom: 48px;
+}
+
+.hori {
+    margin-top: 50px;
+}
+
+.horr {
+    border: 3px solid rgba(255, 255, 255, 0.15);
+    ;
+}
+
+.same {
+    color: #FFF;
+    margin-top: 50px;
+}
+
+.last-text {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.last-part {
+    display: flex;
+    justify-content: space-between;
 }
