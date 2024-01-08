@@ -203,5 +203,92 @@
     font-size: 20px;
     margin-bottom: 16px;
     font-weight: 500;
+
+}
+
+
+.awesome-text {
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 42px;
+    font-weight: 900;
+    margin-bottom: 22px;
+}
+
+.small-par-text {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+
+    margin-bottom: 48px;
+    padding-right: 425px;
+}
+
+.item-img {
+    display: flex;
+    gap: 24px;
+    margin-bottom: 24px;
+
+}
+
+.img-parts {
+    margin-right: 30px;
+}
+
+.sub-section {
+    margin-top: 120px;
+}
+
+.subscribe {
+    border-radius: 16px;
+    background: rgba(255, 0, 0, 0.05);
+    height: 616px;
+    text-align: center;
+}
+
+.subscribe img {
+    margin-top: 80px;
+    margin-bottom: 40px;
+}
+
+.sub-des {
+    color: rgba(7, 2, 17, 0.60);
+    text-align: center;
+    font-family: Inter;
+    font-size: 17px;
     
+    font-weight: 400;
+    padding: 0 300px
+    
+    
+}
+
+.subscribe form {
+    margin-top: 48px;
+    display: flex;
+    padding: 0 336px;
+}
+
+#email {
+    padding: 25px;
+    width: 88%;
+    max-width: 450px;
+    border: none;
+    font-size: 18px;
+    border-radius: 50px 0 0 50px;
+}
+#subscribe {
+    padding: 25px;
+    border: none;
+    font-size: 18px;
+    border-radius: 0 50px 50px 0;
+    background-color: #F00;
+    color: #FFF;
+}
+
+#subscribe:hover {
+    background-color: green;
+    cursor: pointer;
 }
