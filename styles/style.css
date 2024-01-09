@@ -313,8 +313,7 @@ footer {
     font-size: 20px;
     font-weight: 500;
     line-height: 40px
-   
-    /* 166.667% */
+        /* 166.667% */
 }
 
 .personal-info .phone p {
@@ -324,7 +323,7 @@ footer {
 .phone,
 .address {
     margin-top: 120px;
-    
+
 }
 
 
@@ -377,32 +376,32 @@ footer {
     gap: 5px;
 }
 
- .phone-web-text {
+.phone-web-text {
     color: #FFF;
     font-family: Inter;
     font-size: 20px;
     font-weight: 500;
     line-height: 40px
- }
-
- .phone {
-    margin-right: 100px;
- }
-
-
-
- /* for circle */
-
-.circle {
-    margin-top: 300px;
-    margin-bottom: 300px;
 }
 
-.circle-img {
-    /* background-color: aqua; */
+.phone {
+    margin-right: 100px;
+}
+
+
+
+/* for circle */
+
+/* .circle {
+    margin-top: 300px;
+    margin-bottom: 300px;
+} */
+
+/* .circle-img {
+   
     width: 500px;
     height: 500px;
-    /* text-align: center; */
+    
     display: flex;
     justify-content: center;
 
@@ -410,12 +409,91 @@ footer {
     border-radius: 450px;
 
     margin-left: 50px;
+
+} */
+
+/* #circle-image {
+    width: 80%;
+    margin: auto;
+    display: block;
+} */
+
+.new-year-celebration {
+    display: flex;
+    
+    
+
+}
+
+.another-special {
+    /* width: 350px; */
+    width: 450px;
+}
+
+.celebration-img {
+    /* background-color: aqua; */
+   
+    margin-left: 50px;
+    width: 500px;
+    height: 315px;
+
+    display: flex;
+    justify-content: center;
+    
+    border: 15px solid #F00;
+    border-radius: 450px;
+
+    /* width: 500px;
+    height: 320px;
+    display: flex;
+    justify-content: center;
+
+    border-radius: 463px;
+    border: 15px solid #F00; */
+
+}
+
+.special-text {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
     
 }
 
-#circle-image {
+
+.new-year-celebration .celebration-img img {
+    /* width: 80%;
+    margin: auto; */
     width: 80%;
     margin: auto;
     display: block;
 }
 
+.best-offer, .happy-new-year {
+    padding-top: 50px;
+}
+
+.twenty-four {
+    color: #F00;
+    font-family: Inter;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.happy-new-year {
+    margin-left: 100px;
+}
+
+#newyear {
+    margin-top: 43px;
+}
+
+#special-section {
+    margin-bottom: 120px;
+    margin-top: 120px;
+}
