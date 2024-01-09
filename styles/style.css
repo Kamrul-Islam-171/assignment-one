@@ -420,8 +420,8 @@ footer {
 
 .new-year-celebration {
     display: flex;
-    
-    
+
+
 
 }
 
@@ -432,14 +432,14 @@ footer {
 
 .celebration-img {
     /* background-color: aqua; */
-   
+
     margin-left: 50px;
     width: 500px;
     height: 315px;
 
     display: flex;
     justify-content: center;
-    
+
     border: 15px solid #F00;
     border-radius: 450px;
 
@@ -460,7 +460,7 @@ footer {
     font-style: normal;
     font-weight: 400;
     line-height: 32px;
-    
+
 }
 
 
@@ -472,7 +472,8 @@ footer {
     display: block;
 }
 
-.best-offer, .happy-new-year {
+.best-offer,
+.happy-new-year {
     padding-top: 50px;
 }
 
@@ -504,17 +505,18 @@ footer {
     /* height: auto; */
     background-repeat: no-repeat;
     height: 433px;
-    
+
     background-position: bottom right;
 }
+
 #help {
-    background-image:  url('../images/resources/group75.png'), url('../images/resources/rectangle1.png'),url('../images/resources/rectangle2.png');
-   
+    background-image: url('../images/resources/group75.png'), url('../images/resources/rectangle1.png'), url('../images/resources/rectangle2.png');
+
     height: 662px;
     background-repeat: no-repeat;
     background-position: top left, top right, bottom right;
     margin: 120px 0;
-     
+
 }
 
 .pasapasi {
@@ -522,8 +524,36 @@ footer {
 }
 
 #help-img {
-   padding-left: 740px;
-   padding-top: 60px;
+    padding-left: 740px;
+    padding-top: 60px;
 
-   
+
+}
+
+.functional {
+    text-align: center;
+    
+}
+
+.functional h3 {
+    color: #070211;
+    font-family: Inter;
+    font-size: 20px;
+
+    font-weight: 500;
+    margin-bottom: 20px;
+
+}
+
+ .sale   {
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 900;
+    margin-bottom: 28px;
+}
+
+.holiday {
+    color: #F00;
 }
