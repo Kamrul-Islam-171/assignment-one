@@ -497,3 +497,33 @@ footer {
     margin-bottom: 120px;
     margin-top: 120px;
 }
+
+
+#please-help {
+    background-image: url('../images/resources/rectangle1.png');
+    /* height: auto; */
+    background-repeat: no-repeat;
+    height: 433px;
+    
+    background-position: bottom right;
+}
+#help {
+    background-image:  url('../images/resources/group75.png'), url('../images/resources/rectangle1.png'),url('../images/resources/rectangle2.png');
+   
+    height: 662px;
+    background-repeat: no-repeat;
+    background-position: top left, top right, bottom right;
+    margin: 120px 0;
+     
+}
+
+.pasapasi {
+    display: flex;
+}
+
+#help-img {
+   padding-left: 740px;
+   padding-top: 60px;
+
+   
+}
